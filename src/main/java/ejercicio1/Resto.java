@@ -1,18 +1,18 @@
-package org.example;
+package ejercicio1;
 
-public class GranBuenosAires extends Localidad{
+public class Resto extends Localidad{
 
-    public static final int COSTO_ENVIO_PARA_COLECTIVO_SUR = 1500;
+    public static final int COSTO_ENVIO_COLECTIVO_SUR = 3000;
     public static final int COSTO_ENVIO_CORREO_ARGENTINO = 800;
-    public static final int DISTANCIA_CAPITAL_FEDERAL = 20;
+    public static final int DISTANCIA_CAPITAL_FEDERAL = 1000;
 
-    public GranBuenosAires(String nombre) {
-        super("Gran Buenos Aires");
+    public Resto(String nombre) {
+        super("Resto");
     }
 
     @Override
     protected double costoEnvioColectivoSur() {
-        return COSTO_ENVIO_PARA_COLECTIVO_SUR;
+        return COSTO_ENVIO_COLECTIVO_SUR;
     }
 
     @Override
@@ -25,6 +25,5 @@ public class GranBuenosAires extends Localidad{
         return DISTANCIA_CAPITAL_FEDERAL;
     }
     }
-
 
 

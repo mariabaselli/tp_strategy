@@ -1,11 +1,5 @@
-import org.example.Calculador;
-import org.example.CapitalFederal;
-import org.example.Carrito;
-import org.example.Cliente;
-import org.example.ColectivoSur;
-import org.example.CorreoArgentino;
-import org.example.Localidad;
-import org.example.Producto;
+package ejercicio1;
+
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;

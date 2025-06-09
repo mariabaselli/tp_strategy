@@ -1,4 +1,4 @@
-package org.example;
+package ejercicio1;
 
 public class Cliente {
     private String nombre;
